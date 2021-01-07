@@ -30,4 +30,25 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<!-- NOT working here...NOT found MAIN class -->
+	<!-- <build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+						<configuration>
+							<skipç>true</skipç>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build> -->
+	
 </project>
